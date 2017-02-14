@@ -13,10 +13,12 @@ $.ajax({
 
 
     var body = document.getElementsByTagName('body')[0];
-    var container = document.getElementById('container');
+    var container = document.createElement('div');
+    container.id = container;
+    body.appendChild('container');
     var mainDiv = document.createElement('div');
     mainDiv.id = 'main';
-    container.appendChild('mainDiv')
+    container.appendChild('mainDiv');
 
 
     var loc = document.createElement('h1')
