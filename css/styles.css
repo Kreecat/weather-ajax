@@ -1,15 +1,6 @@
-#container {
-	
-}
-#main{
-
-}
-#location{
-
-}
-#temp{
-
-}
-#condition{
-	
+body{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Della Respira', serif;
 }

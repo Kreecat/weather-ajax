@@ -10,7 +10,7 @@ $.ajax({
     var temp = response.main.temp;
     var condi = response.weather[0].description;
     var img = createElement('img');
-    var info = mainDiv.appendChild(loc),  mainDiv.appendChild(curTemp), mainDiv.appendChild(curCond);
+    
 
 
 
